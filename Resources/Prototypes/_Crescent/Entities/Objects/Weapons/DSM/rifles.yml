@@ -3,7 +3,7 @@
   name: DSM IPV-701 5.56x45mm
   parent: BaseWeaponRifle
   id: CrescentWeaponRifleIPV701
-  description: The standard issue rifle used by the Imperial Army and Imperial Marine Corps. Designed after a somewhat unpopular firearm used hundreds and hundreds of years ago, and overengineered to hell and back. Fires bullets like any other gun does, but looks great.
+  description: The IPV-701 is the standard issue assault rifle carbine, currently in service with all centralized Imperial Marine Corps and Army divisions. Taking design inspiration from a failed weapon of Old Earth, the 701 is designed to withstand just about any environment, while being lightweight and relatively concealable. Chambered in 5.56x45mm Imperial.
   components:
   - type: Item
     shape:
@@ -55,7 +55,7 @@
   name: DSM IPV-2811 .277
   parent: BaseWeaponRifle
   id: CrescentWeaponRifleIPV2811
-  description: placeholder
+  description: The IPV-2811 is the premier, top of the line battle rifle currently used by all branches of the Imperial armed services. The 2811 uses the 705 as a base, rechamberes it to a larger caliber, improves on the ergonomics, and adds a swift burst-fire feature. Chambered in .277 Dominion.
   components:
   - type: Item
     shape:
@@ -70,9 +70,14 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/Guns/RIFLE/IPV-2811.rsi
   - type: Gun
+    burstFireRate: 10
     fireRate: 6.5
     soundGunshot:
       collection: Dmr_1_Gunshots
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    - Burst
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -107,7 +112,7 @@
   name: DSM IPV-33R 5.56x45mm
   parent: BaseWeaponRifle
   id: CrescentWeaponRifleIPV33R
-  description: placeholder
+  description: The IPV-33R is a surprisingly modern rifle, designed to be cheaply producable, yet reliable enough to survive in vacuum conditions, for use by even the poorest of fiefdoms. Using large pieces of cheap molded polymer, and a stamped steel receiver, the 33R provides a decent ranged weapon, if you can't afford anything better. Chambered in 5.56x45mm Imperial.
   components:
   - type: Item
     shape:
@@ -125,6 +130,9 @@
     fireRate: 6.5
     soundGunshot:
       collection: Pistol_3_Gunshots
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -154,35 +162,3 @@
   - type: Appearance
   - type: StaticPrice
     price: 3000
-
-- type: entity
-  parent: [BaseWeaponSniper, BaseGunWieldable]
-  id: CrescentWeaponRifleipv13r
-  name: DSM IPV-13R 5.56x45mm
-  description: imperialslop
-  components:
-  - type: Item
-    size: Ginormous
-  - type: StaticPrice
-    price: 2000
-  - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Guns/RIFLE/M919.rsi
-  - type: Clothing
-    sprite: _Crescent/Objects/Weapons/Guns/RIFLE/M919.rsi
-  - type: Gun
-    fireRate: 3
-    projectileSpeed: 45
-    selectedMode: SemiAuto
-    availableModes:
-    - SemiAuto
-    soundGunshot:
-      path: /Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lever_fire.ogg
-  - type: BallisticAmmoProvider
-    soundInsert:
-      collection: LeverReload
-    capacity: 6
-    autoCycle: false
-    proto: CrescentCartridge_556x45
-    whitelist:
-      tags:
-      - CrescentCartridge_556x45
