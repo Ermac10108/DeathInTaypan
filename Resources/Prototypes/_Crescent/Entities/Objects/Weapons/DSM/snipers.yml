@@ -3,7 +3,7 @@
   name: DSM LsPv-240 7.62x51mm
   parent: [BaseWeaponSniper]
   id: WeaponSniperLsPv240
-  description: placeholder
+  description: The LsPv-240 is an oddball weapon as far as the Imperial Armed Forces are concerned. Adapted from a civilian rifle, and uptuned to meet military specifications, the 240 is insanely accurate, decently powerful, and very very loud. Despite seeming perfect for sniper roles, most fiefdoms outside the Core worlds have refused to spend excess funds to replace their older, equally reliable lever action rifles with it. Chambered in 7.62x51mm Imperial.
   components:
   - type: Item
     shape:

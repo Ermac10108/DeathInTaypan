@@ -2,7 +2,7 @@
   name: DSM SPS-110 12ga
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: CrescentWeaponShotgunSPS110
-  description:
+  description: The SPS-110 is a combat shotgun, designed by Count Olywir's arms company, and put into use by the Imperial Marine Corps. Designed for CQB, the 110 is semi automatic, and has a pistol grip for added control. In reality, it performs like any other shotgun on the market. Fires 12 gauge shells.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Guns/SHOTGUN/SPS-110.rsi

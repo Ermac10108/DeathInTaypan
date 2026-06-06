@@ -3,7 +3,7 @@
   name: DSM TAsG-1900 5.56x45mm
   parent: BaseWeaponRifle
   id: CrescentWeaponLMGTASG1900
-  description: placeholder
+  description: The TAsG-1900 is the workhorse machine gun used by Imperial Infantry in just about every fiefdom in the galaxy. Designed alongside the 2811, the 1900 is an ergonomic, expensive, and effective, the 1900 is a very good machine gun indeed. Chambered in 5.56x45mm Imperial.
   components:
   - type: Item
     shape:
@@ -18,7 +18,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/Guns/LMG/TASG-1900.rsi
   - type: Gun
-    fireRate: 6
+    fireRate: 8
     soundGunshot:
       path: /Audio/_Crescent/Weapons/Guns/MG42/gunshot.ogg
     soundEmpty:
