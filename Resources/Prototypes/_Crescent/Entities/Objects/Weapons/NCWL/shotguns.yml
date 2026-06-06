@@ -2,7 +2,7 @@
   name: NCWL TSD-87 12ga
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: CrescentWeaponShotgunTSD87
-  description: The TSD-87 is a unique shotgun, utilizing a reversed pump action, and chambered in 12 gauge. while the action is a little akward to get used to, it fires buckshot and slugs like any shotgun.
+  description: The TSD-87 is a unique shotgun, utilizing a reversed pump action, and chambered in 12 gauge. while the action is a little akward to get used to, it fires buckshot and slugs like any shotgun. Chambered in 12 gauge shells.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Guns/SHOTGUN/TSD-87.rsi

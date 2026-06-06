@@ -8,6 +8,8 @@
   - type: Sprite
   - type: Item
     size: Large
+  - type: Wieldable
+  - type: GunRequiresWield
   - type: Clothing
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
     quickEquip: false

@@ -4,7 +4,7 @@
   name: NCWL SV-79 7.62x39mm
   parent: BaseWeaponRifle
   id: CrescentWeaponRifleSV79
-  description: A unique bullpup design, produced by the Union Foundry in Chengridz. Designed with CQB in mind, the bullpup configuration allows for a long barrel in a stout package, at the cost of complicating the internal machinery.
+  description: A unique bullpup design, produced by the Union Foundry in Chengridz. Designed with CQB in mind, the bullpup configuration allows for a long barrel in a stout package, at the cost of complicating the internal machinery. Chambered in 7.62x39mm Union.
   components:
   - type: Item
     shape:
@@ -58,7 +58,7 @@
   name: CZ OBJ-201 5.45x39
   parent: BaseWeaponRifle
   id: CrescentWeaponRifleOBJ201
-  description: There are over 550 million firearms in worldwide circulation. That's one firearm for every twelve people on the planet. The only question is, How do we arm the other 11?
+  description: The OBJ-201 is the newest assault rifle designed by the NCWL, and is designed to eventually become the standard service rifle of the Homeguard. Designed off of an Old Earth design used by previous communists, the 201 is designed to make every man a marksman. The integrated optic makes target acqusition easy, and the two round "hyper burst" fires rounds before the recoil can affect the shooter. These are currently only issued to Spetsnaz units as field testing. Chambered in 5.45x39mm Union.
   components:
   - type: Item
     shape:
@@ -74,12 +74,12 @@
     sprite: _Crescent/Objects/Weapons/Guns/RIFLE/OBJ-201.rsi
   - type: Gun
     fireRate: 6.5
-    selectedMode: FullAuto
+    selectedMode: Burst
     availableModes:
-      - FullAuto
+      - SemiAuto
       - Burst
     shotsPerBurst: 2
-    burstFireRate: 10
+    burstFireRate: 18
     burstCooldown: 0.5
     soundGunshot:
       path: /Audio/_Crescent/Weapons/Guns/rifle_2/rifle_gunshot_2.ogg
@@ -118,7 +118,7 @@
   name: HDB 6P30 4.6x30
   parent: BaseWeaponRifle
   id: CrescentWeaponRifle6P30
-  description: now where do i put all these lord of war quotes
+  description: The HDB Rifle Designation 6P30 is a subsonic, suppressed, collapsable assault rifle, is a rifle designed by the Homeguard Committee directly, specifically for special forces use. The high rate of fire and massive suppressor has earned it the nickname, "Ghost". Chambered in 4.6x30mm Subsonic.
   components:
   - type: Item
     shape:
@@ -139,8 +139,8 @@
       - FullAuto
       - Burst
     shotsPerBurst: 2
-    burstFireRate: 10
-    burstCooldown: 0.5
+    burstFireRate: 18
+    burstCooldown: 0.3
     soundGunshot:
       path: /Audio/_Crescent/Weapons/Guns/supressed_1/supressed_gunshot_3.ogg
   - type: ItemSlots

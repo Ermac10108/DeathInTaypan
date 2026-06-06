@@ -1,10 +1,8 @@
-
-
 - type: entity
-  name: NCWL LPP-10/5m 7.62x51
+  name: NCWL LPP-10/5M 7.62x51
   parent: BaseWeaponRifle
   id: CrescentWeaponLMGLPP105m
-  description: placeholder
+  description: The LPP-10/5M is, like many Union weapons, designed using an Old Earth weapon as a base. Rechambered to fire an Imperial cartridge, tinkered with in various areas to improve its use, the LPP-10/5M now finds itself in every Homeguard platoon in Union controlled space. Chambered in 7.62x51mm Imperial.
   components:
   - type: Item
     shape:
@@ -19,7 +17,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/Guns/LMG/LPP-105M.rsi
   - type: Gun
-    fireRate: 6
+    fireRate: 8
     soundGunshot:
       collection: Lmg_2_Gunshots
   - type: ItemSlots

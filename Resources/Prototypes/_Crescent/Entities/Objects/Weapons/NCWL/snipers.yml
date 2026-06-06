@@ -2,7 +2,7 @@
   name: NCWL BSV-95/1M 7.62x54mm
   parent: [BaseWeaponSniper]
   id: CrescentWeaponSniperBSV951MA
-  description: placeholder
+  description: The BSV-95/1M is the Union's only sniper rifle, aside from the rarer AMRs in limited service. Issued mostly to spetsnaz ground units, the 95/1M features some of the best gunsmithing the Union foundaries have to offer. Ergonomic rifle grip and stock, free floating barrel, and a dimpled handguard all make this rifle incredibly comfortable to use. Chambered in 7.62x54mm Union.
   components:
   - type: Item
     shape:
